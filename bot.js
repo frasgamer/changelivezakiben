@@ -31,7 +31,7 @@ client.user.setUsername(argresult).then//fras
     message.channel.sendMessage(`**${argresult}** : تم تغيير أسم البوت إلى`)//fras
 return message.reply("**لا يمكنك تغيير الاسم يجب عليك الانتظآر لمدة ساعتين . **");//fras
 } else//fras
-  if (message.content.startsWith(adminprefix + 'avatar')) {/fras
+  if (message.content.startsWith(adminprefix + 'avatar')) { //fras
 client.user.setAvatar(argresult);//fras
   message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);//fras
       } else     //fras
